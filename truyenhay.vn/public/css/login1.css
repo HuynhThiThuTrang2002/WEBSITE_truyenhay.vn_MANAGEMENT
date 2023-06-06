@@ -1,0 +1,63 @@
+body {
+    background-image:url(../img/Thuvien.png); 
+    background-position-y: -500px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.input-group-text{
+    float: left;
+}
+.form-control{
+    clear: left;
+}
+.card-bg-dark{
+    max-width: 400px;
+    background: rgba(0,0,0,0.8);
+    flex-grow: 1;
+    padding: 40px 40px 50px;
+    box-shadow: rgba(0,0,0,0.8);
+}
+h4{
+    font-size: 30px;
+}
+.input-group-text{
+    background-color: #656768;
+    padding: 5.2px;
+    height: 31px;
+}
+.form-control{
+    width: 80%;
+    padding: 10px 10px;
+    background-color: #fff;
+    overflow: auto;
+    font-size: 15px;
+}
+.btn-btn-primary-btn-block{
+    background:#66b0e9;
+    width: 70%;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.btn-btn-block-btn-twitter{
+    background:#359cea;
+    color: #fff;
+    padding: 10px 10px;
+}
+.btn-btn-block-btn-facebook{
+    background:#042d4d;
+    color: #fff;
+    padding: 10px 10px;
+}
+.btn-btn-primary-btn-block:hover{
+    background: rgb(5, 199, 76);
+}
+.btn-btn-block-btn-twitter:hover{
+    background:#ea695d;
+}
+.btn-btn-block-btn-facebook:hover{
+    background:#ea695d;
+}
